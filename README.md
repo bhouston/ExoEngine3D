@@ -19,3 +19,9 @@ This 3D engine imports it's level/worlds data from the popular Worldcraft editor
 This engine allows for polygons to be rendered using reflection mapping, (fake) Phong shading, Gouraud shading or just simple flat shading.  The engine uses reflection mapping to get the somewhat realistic look of the pond's waves.  The (fake) Phong shading is used on the ducks in order to make them look shiny and smoothly rounded -- the primary effect of Phong shading (usually called specular reflection) is the viewer/camera dependent white highlights.
 
 The 600kB of code responsible for this engine is divided into three parts: "ExocortexNative", a C++ support library for OpenGL and TIFF images, "Exocortex", a C# library that I am using across projects, and "ExoEngine", the code that is specific to this application.  The "Exocortex" library actually contains some fairly reusable classes for 3D applications such as OpenGL compatible matrix, vector and quaternion classes as well as more specialized classes for Marching Cubes and multidimensional fast Fourier transforms.
+
+## Screenshots
+
+![ExoEngine Screenshot 1](exoengine1.gif)
+![ExoEngine Screenshot 1](exoengine3.gif)
+![ExoEngine Screenshot 1](exoengine4.gif)
