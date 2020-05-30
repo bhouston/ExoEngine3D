@@ -1,0 +1,631 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "Windows\Forms\Icons\exocortexLogo.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Exocortex"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                RootNamespace = "Exocortex"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "true"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "true"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "true"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "true"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Setup - Release"
+                    AllowUnsafeBlocks = "true"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Debug2.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Math2.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "String2.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Collections\BinaryTreeNode.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Collections\CollectionBase2.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Collections\TreeNode.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Collections\TreeNodeCollection.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Collections\Specialized\SingleCollection.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Diagnostics\BugTracking.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Diagnostics\ProfilingSection.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\Array2.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\AxisEnum.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\BitmapUtils.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\Color2.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\DoubleArray.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\FloatArray.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\PlaneAxisUtils.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\PlaneEnum.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\RGBA.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\RGBAArray.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\SingleArray.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\Size3.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Imaging\TiffLib.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mathematics\Secant.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mathematics\Sign.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mathematics\SimpsonIntegral.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mathematics\LinearAlgebra\Mapack.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mathematics\Probability\GaussianDistribution.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Text\StringTokenizer.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Text\TokenReader.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\ButtonClient.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\CommandButton.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\CommandControl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\CommandControls.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\DataGridComboBox.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\DirectoryTreeView.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\ExoControlUtils.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\ExocortexResources.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\ExoMenuItem.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\ExoToolBar.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\ExoToolBarSeparator.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\LongProcess.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\LongProcessDialog.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\LongProcessDialog.resx"
+                    DependentUpon = "LongProcessDialog.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Margins.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\MenuItemClient.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\ProgressDialog.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\ProgressDialog.resx"
+                    DependentUpon = "ProgressDialog.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\ProgressTracker.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\ResourceNotFoundException.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\SelectDirectoryDialog.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\Forms\SelectDirectoryDialog.resx"
+                    DependentUpon = "SelectDirectoryDialog.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Bitmaps\driveCdrom.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Bitmaps\driveFloppy.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Bitmaps\driveNetwork.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Bitmaps\driveStandard.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Bitmaps\fileClose-Special.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Bitmaps\folderClosed.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Bitmaps\folderOpen.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Bitmaps\rebuildSolution-Special.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\App.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\autoLevels.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\blank.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\brightnessDecrease.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\brightnessIncrease.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\browseBack.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\browseNext.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\contrastDecrease.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\contrastIncrease.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\exocortexLogo.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\fileClose.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\fileExport.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\fileNew.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\fileOpen.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\fileSave.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\gotoFirst.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\gotoLast.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\gotoNext.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\gotoPrevious.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\help.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\image.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\imageSave.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\itemNext.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\itemPrev.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\menuCheckmark.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\moveDown.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\moveUp.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\navigateNext.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\navigatePrevious.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\properties.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\rebuildSolution.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\rotateCCW.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\rotateCW.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\scanNext.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\scanPrevious.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\sectionNext.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\sectionPrevious.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\zoomFitToWidth.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\zoomFitToWindow.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\zoomIn.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\zoomOut.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\Forms\Icons\zoomReset.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\DocumentBase.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\Documents.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\IDocument.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\IWindow.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\MainWindow.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\MdiApplication.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\MdiChild.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\Project.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\ProjectItem.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\ProjectItems.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\WindowBase.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Windows\MDIFramework\Windows.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

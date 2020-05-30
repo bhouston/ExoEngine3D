@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exocortex.Geometry3D", "Exocortex.Geometry3D.csproj", "{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}.Debug.ActiveCfg = Debug|.NET
+		{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}.Debug.Build.0 = Debug|.NET
+		{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}.Release.ActiveCfg = Release|.NET
+		{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

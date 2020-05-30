@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoEngine", "src\ExoEngine.csproj", "{F1C95802-0E98-47B8-9324-AA8EE58513EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exocortex", "..\Libraries\Exocortex\Exocortex.csproj", "{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exocortex.Geometry3D", "..\Libraries\Exocortex.Geometry3D\Exocortex.Geometry3D.csproj", "{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exocortex.OpenGL", "..\Libraries\Exocortex.OpenGL\Exocortex.OpenGL.csproj", "{090E98A3-7FC8-4721-AB22-1D867DBD792C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ExoEngine Setup", "setup\ExoEngine Setup.vdproj", "{9A7C3EA9-3318-4D10-B760-20DD6846FE3A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExocortexNative", "..\Libraries\ExocortexNative\ExocortexNative.vcproj", "{B9B93119-5E93-4A8C-891D-EA21B76AF030}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+		ConfigName.2 = Release - Setup
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F1C95802-0E98-47B8-9324-AA8EE58513EF}.Debug.ActiveCfg = Debug|.NET
+		{F1C95802-0E98-47B8-9324-AA8EE58513EF}.Debug.Build.0 = Debug|.NET
+		{F1C95802-0E98-47B8-9324-AA8EE58513EF}.Release.ActiveCfg = Release|.NET
+		{F1C95802-0E98-47B8-9324-AA8EE58513EF}.Release.Build.0 = Release|.NET
+		{F1C95802-0E98-47B8-9324-AA8EE58513EF}.Release - Setup.ActiveCfg = Release|.NET
+		{F1C95802-0E98-47B8-9324-AA8EE58513EF}.Release - Setup.Build.0 = Release|.NET
+		{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}.Debug.ActiveCfg = Debug|.NET
+		{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}.Debug.Build.0 = Debug|.NET
+		{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}.Release.ActiveCfg = Release|.NET
+		{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}.Release.Build.0 = Release|.NET
+		{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}.Release - Setup.ActiveCfg = Release|.NET
+		{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}.Release - Setup.Build.0 = Release|.NET
+		{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}.Debug.ActiveCfg = Debug|.NET
+		{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}.Debug.Build.0 = Debug|.NET
+		{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}.Release.ActiveCfg = Release|.NET
+		{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}.Release.Build.0 = Release|.NET
+		{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}.Release - Setup.ActiveCfg = Release|.NET
+		{39FD7317-EF9B-4BE3-991F-3F61B77FA7A0}.Release - Setup.Build.0 = Release|.NET
+		{090E98A3-7FC8-4721-AB22-1D867DBD792C}.Debug.ActiveCfg = Debug|.NET
+		{090E98A3-7FC8-4721-AB22-1D867DBD792C}.Debug.Build.0 = Debug|.NET
+		{090E98A3-7FC8-4721-AB22-1D867DBD792C}.Release.ActiveCfg = Release|.NET
+		{090E98A3-7FC8-4721-AB22-1D867DBD792C}.Release.Build.0 = Release|.NET
+		{090E98A3-7FC8-4721-AB22-1D867DBD792C}.Release - Setup.ActiveCfg = Release|.NET
+		{090E98A3-7FC8-4721-AB22-1D867DBD792C}.Release - Setup.Build.0 = Release|.NET
+		{9A7C3EA9-3318-4D10-B760-20DD6846FE3A}.Debug.ActiveCfg = Debug
+		{9A7C3EA9-3318-4D10-B760-20DD6846FE3A}.Release.ActiveCfg = Release
+		{9A7C3EA9-3318-4D10-B760-20DD6846FE3A}.Release - Setup.ActiveCfg = Release
+		{9A7C3EA9-3318-4D10-B760-20DD6846FE3A}.Release - Setup.Build.0 = Release
+		{B9B93119-5E93-4A8C-891D-EA21B76AF030}.Debug.ActiveCfg = Debug|Win32
+		{B9B93119-5E93-4A8C-891D-EA21B76AF030}.Release.ActiveCfg = Release|Win32
+		{B9B93119-5E93-4A8C-891D-EA21B76AF030}.Release - Setup.ActiveCfg = Release|Win32
+		{B9B93119-5E93-4A8C-891D-EA21B76AF030}.Release - Setup.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exocortex", "Exocortex\Exocortex.csproj", "{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exocortex.DSP", "Exocortex.DSP\Exocortex.DSP.csproj", "{1904A41B-D1B8-40E5-ADBB-728DDCF7C816}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}.Debug.ActiveCfg = Debug|.NET
+		{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}.Debug.Build.0 = Debug|.NET
+		{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}.Release.ActiveCfg = Release|.NET
+		{BB618144-AB9A-4086-9ACD-ED76BEE6DE42}.Release.Build.0 = Release|.NET
+		{1904A41B-D1B8-40E5-ADBB-728DDCF7C816}.Debug.ActiveCfg = Debug|.NET
+		{1904A41B-D1B8-40E5-ADBB-728DDCF7C816}.Debug.Build.0 = Debug|.NET
+		{1904A41B-D1B8-40E5-ADBB-728DDCF7C816}.Release.ActiveCfg = Release|.NET
+		{1904A41B-D1B8-40E5-ADBB-728DDCF7C816}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

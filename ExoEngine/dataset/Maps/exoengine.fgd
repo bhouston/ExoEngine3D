@@ -1,0 +1,70 @@
+//
+// ExoEngine game definition file (.fgd)
+//
+
+@Main = 
+[
+    Name:         "ExoEngine"
+    DefaultClass: "Default"
+]
+
+
+@SolidClass = Default : "Default"
+[
+	worldTitle(string)		: "Title"  : ""
+	worldDescription(string)	: "Description"  : ""
+
+	skyboxEnabled(choices)	: "Skybox Enabled"	: 0 =
+	[	
+		0 : "No"
+		1 : "Yes"
+	]
+	skyboxName(string) 	: "Skybox Name"     	: ""
+
+	cloudsEnabled(choices)	: "Clouds Enabled"	: 0 =
+	[	
+		0 : "No"
+		1 : "Yes"
+	]
+	cloudsSpeed(integer) 	: "Clouds Speed"     	: 10
+
+	ambientLightIntensity(integer) : "Ambient Light Intensity (0-255)" : 0
+	ambientLightColor(color255)    : "Ambient Light Color"             : "64 64 64"
+
+]
+
+
+@SolidClass = Water [
+
+	waveHeight(string)	: "Wave Height"	: 10
+	waveSpeed(string)	: "Wave Speed" 	: 10
+
+	color(color255)	: "Color"                	: "64 64 192"
+	transparency(integer)	: "Transparency (0-255)"	: 255
+	shininess(string)    	: "Material Shininess (0-100)"	: 0
+
+]
+
+@SolidClass = Duck [
+
+	orientation(integer)	: "Orientation (degrees)"	: 0
+
+	color(color255)	: "Color"                	: "64 64 192"
+	transparency(integer)	: "Transparency (0-255)"	: 255
+	shininess(string)    	: "Material Shininess (0-100)"	: 0
+
+]
+
+@SolidClass = Light [
+
+	name(string) : "Name" : "unnamed"
+	color(color255)	: "Color"                	: "255 255 255"
+	
+]
+
+@SolidClass = StartPosition [
+
+	name(string) : "Name" : "unnamed"
+	orientation(integer)	: "Orientation (degrees)"	: 0
+
+]
