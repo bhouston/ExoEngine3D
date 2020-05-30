@@ -25,3 +25,10 @@ The 600kB of code responsible for this engine is divided into three parts: "Exoc
 ![ExoEngine Screenshot 1](exoengine1.gif)
 ![ExoEngine Screenshot 1](exoengine3.gif)
 ![ExoEngine Screenshot 1](exoengine4.gif)
+
+## Original Distribution
+
+This project pre-dates Github by years.  It was initially released open source on the following websites back in the early 2000s:
+
+* Code Project: https://www.codeproject.com/Articles/1728/ExoEngine-a-C-3D-engine
+* C# Corner: https://www.c-sharpcorner.com/article/exoengine-a-C-Sharp-opengl-3d-engine/
