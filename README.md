@@ -2,13 +2,21 @@
 
 A basic 3D engine built using C# and the .NET platform
 
-July 27, 2002
+Originally published in July 2002:
+
+* Code Project: https://www.codeproject.com/Articles/1728/ExoEngine-a-C-3D-engine
+* C# Corner: https://www.c-sharpcorner.com/article/exoengine-a-C-Sharp-opengl-3d-engine/
+
+![ExoEngine Screenshot 1](exoengine4.gif)
 
 ## Introduction
 
 For my fourth year computer graphics course I wrote a little 3D engine using C# and the .NET platform.  I decided to go this route as opposed to the C++ route that everyone else took in the course because I wanted to see whether C# lived up to it's hype.  Surprising, after writing about 600kB of code in C# it seems like it is a decent language after all and possibly an effective replacement for the C++ even in demanding field of real-time graphics.  When I compare C# to C++ I find it's best features are garbage collection, less convoluted syntax and true object orientation.
 
 Just a quick disclaimer before I go too far -- please remember that I am only a student (and a cognitive science/neuroscience student at that) and not John Carmack thus don't get your expectations too high.
+
+
+![ExoEngine Screenshot 1](exoengine1.gif) 
 
 ## How the Engine Works
 
@@ -20,15 +28,4 @@ This engine allows for polygons to be rendered using reflection mapping, (fake) 
 
 The 600kB of code responsible for this engine is divided into three parts: "ExocortexNative", a C++ support library for OpenGL and TIFF images, "Exocortex", a C# library that I am using across projects, and "ExoEngine", the code that is specific to this application.  The "Exocortex" library actually contains some fairly reusable classes for 3D applications such as OpenGL compatible matrix, vector and quaternion classes as well as more specialized classes for Marching Cubes and multidimensional fast Fourier transforms.
 
-## Screenshots
-
-![ExoEngine Screenshot 1](exoengine1.gif)
-![ExoEngine Screenshot 1](exoengine3.gif)
-![ExoEngine Screenshot 1](exoengine4.gif)
-
-## Original Distribution
-
-This project pre-dates Github by years.  It was initially released open source on the following websites back in the early 2000s:
-
-* Code Project: https://www.codeproject.com/Articles/1728/ExoEngine-a-C-3D-engine
-* C# Corner: https://www.c-sharpcorner.com/article/exoengine-a-C-Sharp-opengl-3d-engine/
+![ExoEngine Screenshot 1](exoengine3.gif) 
