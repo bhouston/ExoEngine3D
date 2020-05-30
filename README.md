@@ -15,9 +15,6 @@ For my fourth year computer graphics course I wrote a little 3D engine using C# 
 
 Just a quick disclaimer before I go too far -- please remember that I am only a student (and a cognitive science/neuroscience student at that) and not John Carmack thus don't get your expectations too high.
 
-
-![ExoEngine Screenshot 1](exoengine1.gif) 
-
 ## How the Engine Works
 
 I must immediately give credit for the OpenGL/C# library that Lloyd Dupont created -- it is an amazingly easy library to use.  I have modified the library in the course of creating this project but not significantly.
@@ -27,5 +24,3 @@ This 3D engine imports it's level/worlds data from the popular Worldcraft editor
 This engine allows for polygons to be rendered using reflection mapping, (fake) Phong shading, Gouraud shading or just simple flat shading.  The engine uses reflection mapping to get the somewhat realistic look of the pond's waves.  The (fake) Phong shading is used on the ducks in order to make them look shiny and smoothly rounded -- the primary effect of Phong shading (usually called specular reflection) is the viewer/camera dependent white highlights.
 
 The 600kB of code responsible for this engine is divided into three parts: "ExocortexNative", a C++ support library for OpenGL and TIFF images, "Exocortex", a C# library that I am using across projects, and "ExoEngine", the code that is specific to this application.  The "Exocortex" library actually contains some fairly reusable classes for 3D applications such as OpenGL compatible matrix, vector and quaternion classes as well as more specialized classes for Marching Cubes and multidimensional fast Fourier transforms.
-
-![ExoEngine Screenshot 1](exoengine3.gif) 
